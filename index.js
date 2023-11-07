@@ -4,9 +4,13 @@ const rgbc1 = document.getElementById("rgb1");
 const rgbc2 = document.getElementById("rgb2");
 const rgbc3 = document.getElementById("rgb3");
 
+const stopbtn = document.getElementById("stop");
+
 const body = document.body;
 
-setInterval(() => {
+
+
+let colorChange =setInterval(() => {
   let rgb1 = Math.floor(Math.random() * 255);
   let rgb2 = Math.floor(Math.random() * 255);
   let rgb3 = Math.floor(Math.random() * 255);
@@ -21,3 +25,5 @@ setInterval(() => {
   rgbc2.style.color = "#" + rgb2;
   rgbc3.style.color = "#" + rgb3;
 }, 1000);
+
+

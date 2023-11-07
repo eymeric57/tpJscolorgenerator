@@ -29,3 +29,19 @@ h3 {
     font-weight: 700;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.btn {
+   text-align: center;
+   margin-bottom: 20px;
+   margin-top: -200px;
+
+}
+#stop{
+    width: 20%;
+    text-align: center;
+    margin: 0 auto;
+    color: red;
+    padding: 10px 20px;
+    border-radius: 20px ;
+    font-size: 1.8rem;
+   
+}
